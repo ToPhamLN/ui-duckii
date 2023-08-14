@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duckki</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./../../App.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav id="navbar_page">
+        <div class="container">
+            <div class="header">
+                <nav class="logo_header">
+                    <div class="toggle_sidebar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        DK
+                    </div>
+
+                </nav>
+                <form class="search_form">
+                    <input type="text" class="search_input" id="q" name="q" placeholder="Type your text...">
+                    <button type="submit" class="serach_btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <div class="nav_left">
+                    <nav class="menu_nav">
+                        <ul>
+                            <li>
+                                <a href="" class="icon_item" icon-name="Feed">
+                                    <i class="fa-brands fa-fedora"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon_item" icon-name="Hot">
+                                    <i class="fa-solid fa-fire"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="icon_item" icon-name="Topics">
+                                    <i class="fa-solid fa-golf-ball-tee"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon_item" href="" icon-name="Create">
+                                    <i class="fa-solid fa-circle-plus"></i>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon_item" href="" icon-name="Message">
+                                    <i class="fa-solid fa-message"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon_item" href="" icon-name="Nolification">
+                                    <i class="fa-solid fa-bell"></i>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span class="space"></span>
+                    <nav class="author">
+                        <div class="side_nav">
+                            <ul>
+                                <li>
+                                    <button class="icon_item login_link">
+                                        <i class="fa-solid fa-right-to-bracket"></i>
+                                        Log in
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="icon_item joinin_link">
+                                        <i class="fa-solid fa-user-plus"></i>
+                                        Join in
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="user_nav">
+                            <ul>
+                                <li>
+                                    <a class="avatar" href="">
+                                        <img src="./../../public/imgs/avatar.jpg" alt="avatar">
+                                    </a>
+                                </li>
+                                <li>
+                                    <div id="more_list_btn" class="icon_item">
+                                        <i class="fa-solid fa-circle-chevron-down"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="morelist">
+                                <article class="more_list">
+                                    <h1>More</h1>
+                                    <div class="space"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-solid fa-gear"></i>
+                                                Setting
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-solid fa-user"></i>
+                                                My infomation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-solid fa-bookmark"></i>
+                                                Saved
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-regular fa-circle-question"></i>
+                                                Help
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="toggle_dark_light">
+                                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                                Dark/Light
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-solid fa-right-from-bracket"></i>
+                                                Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+
+            </div>
+            <aside class="topics_list">
+                <!-- list for topic -->
+            </aside>
+        </div>
+
+    </nav>
+
+    <aside id="sidebar_page">
+        <div class="container">
+            <form class="search_form">
+                <input type="text" class="search_input" id="q" name="q" placeholder="Type your text...">
+                <button type="submit" class="serach_btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <nav class="menu_side">
+                <ul>
+                    <li>
+                        <a href="" class="icon_item" icon-name="Feed">
+                            <i class="fa-brands fa-fedora"></i>
+                            Feed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="icon_item" icon-name="Hot">
+                            <i class="fa-solid fa-fire"></i>
+                            Hot
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="icon_item" icon-name="Topics">
+                            <i class="fa-solid fa-golf-ball-tee"></i>
+                            Topics
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon_item" href="" icon-name="Create">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            Create
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon_item" href="" icon-name="Message">
+                            <i class="fa-solid fa-message"></i>
+                            Message
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon_item" href="" icon-name="Nolification">
+                            <i class="fa-solid fa-bell"></i>
+                            Nolification
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </aside>
+    <main id="main_page">
+        <div class="container">
+
+        </div>
+    </main>
+    <footer id="footer_page"></footer>
+
+    <main id="err_form">
+        <!-- <div class="err_wrapper">
+            <div class="err_message">
+                <span class="err_icon">!</span>
+                <p class="err_text"></p>
+                <button>Oke</button>
+            </div>
+        </div> -->
+
+    </main>
+    <script src="./../../public/javascripts/login.js"></script>
+    <script src="./../../App.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
